@@ -1,0 +1,49 @@
+/* Single line comment */
+
+/*
+
+Multi line comment
+
+*/
+body{
+    padding: 1vw;
+    margin: 1vw;
+}
+.page_link {
+    margin: 1vw;
+    font-size: 5vw;
+}
+
+.link_sep{
+    font-size: 5vw;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+
+    color: black;
+    text-decoration: none;
+}
+
+.topnav {
+    border-bottom: .2vw solid;
+    text-align:center;
+}
+
+/* Change the color of links on hover */
+.page_link:hover {
+    color: palevioletred;
+}
+
+
+.page_link.active {
+    color: rgb(117, 5, 93);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.content {
+    text-align: center;
+    border: .2vw solid;
+    border-color: black;
+    margin: 1vw;
+}
